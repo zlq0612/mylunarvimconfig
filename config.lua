@@ -8,7 +8,7 @@ vim.g.neovide_input_use_logo = true -- true on macOS
 lvim.builtin.nvimtree.setup.view.relativenumber = true
 vim.opt.relativenumber = true
 lvim.plugins = {
-	{
+  {
 		"zbirenbaum/copilot-cmp",
 		event = "InsertEnter",
 		dependencies = { "zbirenbaum/copilot.lua" },
@@ -18,6 +18,9 @@ lvim.plugins = {
 				require("copilot_cmp").setup() -- https://github.com/zbirenbaum/copilot-cmp/blob/master/README.md#configuration
 			end, 100)
 		end,
+	},
+	{
+		"lunarvim/horizon.nvim",
 	},
 	{
 		"theniceboy/joshuto.nvim",
