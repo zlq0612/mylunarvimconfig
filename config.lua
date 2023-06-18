@@ -6,6 +6,8 @@ vim.g.clipboard = unnamedplus
 vim.g.neovide_input_macos_alt_is_meta = true
 vim.g.neovide_input_use_logo = true -- true on macOS
 lvim.builtin.nvimtree.setup.view.relativenumber = true
+--设置guifont
+vim.opt.guifont = "ComicShannsMono Nerd Font:h12"
 vim.opt.relativenumber = true
 lvim.plugins = {
   {
